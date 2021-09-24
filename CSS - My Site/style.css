@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(97, 130, 146);
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: "Merriweather", serif;
+}
+hr {
+  border: none;
+  width: 5%;
+  border-style: dotted none none;
+  border-top: 6px dotted #eaf6f6;
+  margin: 0 auto;
+}
+/* #descrip {
+  font-size: 2.5rem;
+} */
+h1 {
+  position: relative;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0;
+  font-size: 4.5rem;
+  color: #6485c4;
+  line-height: 2;
+}
+p,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  color: #40514e;
+  color: rgb(187, 201, 208);
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: normal;
+  color: #a8bce2;
+  line-height: 2;
+}
+h3 {
+  color: #a8bce2;
+}
+
+a {
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: rgb(97, 130, 146);
+}
+.pro {
+  text-decoration: underline;
+}
+
+.topContainer {
+  position: relative;
+  height: 100%;
+  background-color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+.topCloud {
+  position: absolute;
+  top: 0px;
+  right: 10%;
+  width: 30%;
+}
+
+.botCloud {
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  width: 30%;
+}
+
+.mountain {
+  position: static;
+  bottom: 0px;
+}
+
+/*-----------------Middle Container---------------*/
+.myPic {
+  padding-top: 10px;
+  border-radius: 50%;
+  width: 50%;
+  border: black;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.firstSkill {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.secondSkill {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.skills {
+  margin: 100px auto;
+}
+.skill-row {
+  /* position: relative; */
+  width: 50%;
+  margin: 60px auto;
+  line-height: 2;
+  text-align: left;
+}
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.btn {
+  /* border-color: rgb(66, 144, 184); */
+  border: none;
+  background-color: rgb(73, 97, 109);
+  /* border-style: solid; */
+  color: rgb(187, 201, 208);
+  border-radius: 10px;
+  /* border: solid #337fed 1px; */
+}
+
+.btn:hover {
+  background-color: rgb(187, 201, 208);
+  color: rgb(73, 97, 109);
+}
+
+.bottom-container {
+  padding-top: 50px;
+  background-color: rgb(73, 97, 109);
+}
+
+.pFooter {
+  margin: 0;
+  padding: 40px 0 30px 0;
+  font-size: medium;
+}
+
+/* .middleContainer {
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  position: relative;
+  background-color: blue;
+
+  display: inline-block;
+}
+
+.bottomContainer {
+  height: 200px;
+  width: 200px;
+  left: 00px;
+  position: relative;
+  background-color: red;
+  display: inline-block;
+}
+
+.botContainer {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+} */
+
+/* .middleContainer {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.bottomContainer {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.botContainer {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  top: 200px;
+  right: 200px;
+} */
